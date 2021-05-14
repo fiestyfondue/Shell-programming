@@ -1,0 +1,10 @@
+#!/bin/bash  -x
+
+NUM1=55
+NUM2=77
+if ["$NUM1" -gt "$NUM2"]
+then
+  echo "$NUM1 is greater than $NUM2"
+else
+  echo "$NUM1 is smaller than $NUM2"
+fi
